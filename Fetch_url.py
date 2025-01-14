@@ -12,7 +12,7 @@ async def fetch_url(url):
 
 async def main():
     content = await fetch_url("https://www.jetbrains.com/ru-ru/pycharm/buy/?fromIDE=&section=personal&billing=yearly")
-    print(content)
+    print(content) #
 
 
 asyncio.run(main())
