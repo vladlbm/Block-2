@@ -37,5 +37,5 @@ class Circle(Shape):
 
 
 Rectangle = Rectangle(10, 15)
-Rectangle.name_info() #
+Rectangle.name_info()
 
