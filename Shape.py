@@ -36,4 +36,6 @@ class Circle(Shape):
         return math.pi * (self.radius ** 2)
 
 
+Rectangle = Rectangle(10, 15)
+Rectangle.name_info()
 
